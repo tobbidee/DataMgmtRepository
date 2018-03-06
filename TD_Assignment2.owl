@@ -63,6 +63,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000092">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is Enemy of
+
+e.g. Who is the person that this person wants to harm.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isEnemyOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -72,6 +75,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000093">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is friend of
+
+Name of this person&apos;s friend.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isFriendOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -81,6 +87,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000094">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is roommate of
+
+Name of someone that this person shares a room in Hogwarts with.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isRoommateOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -90,6 +99,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000098">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is sibling of
+
+Name of person&apos;s sibling (brother or sister).</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isSiblingOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -99,16 +111,10 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000099">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is teacher of
+
+Name of student that professor teaches.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isTeacherOf</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.pizza.owl/antologies/PIZZA_0000100 -->
-
-    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000100">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -117,6 +123,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000101">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is head of
+
+Name of House that a professor is in charge of.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isHeadOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -126,6 +135,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000102">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is A
+
+A short definition of what something is.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isA</rdfs:label>
     </owl:ObjectProperty>
     
@@ -135,6 +147,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000104">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Has Wand Made Of
+
+A physical component of someone&apos;s wand.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasWandMadeOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -144,6 +159,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000114">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Has Blood-Status of
+
+The blood status of a specific person</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasBloodStatus</rdfs:label>
     </owl:ObjectProperty>
     
@@ -153,6 +171,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000115">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Companion animal, or pet.
+
+The name of person&apos;s companion animal.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasCompanion</rdfs:label>
     </owl:ObjectProperty>
     
@@ -162,6 +183,13 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000121">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>As Professor Lupin told Harry in Prisoner of Azkaban, the Patronus is ‘a kind of Anti-Dementor – a guardian which acts as a shield between you and the Dementor.’ It’s also ‘a kind of positive force, a projection of the very things that the Dementor feeds upon – hope, happiness, the desire to survive – but it cannot feel despair, as real humans can, so the Dementors can’t hurt it.’
+
+The Patronus has two forms, non-corporeal and corporeal. A non-corporeal Patronus can appear as ‘a thin wisp of silver’ that hovers ‘like mist’. Whereas a corporeal Patronus has a form that is clearly defined and is more than vapour or smoke.
+https://www.pottermore.com/features/what-is-a-patronus</antologies:PIZZA_0000103>
+        <antologies:PIZZA_0000103>Has patronus
+
+The animal form of someone&apos;s patronus.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasPatronus</rdfs:label>
     </owl:ObjectProperty>
     
@@ -171,6 +199,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000124">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Was raised by
+
+Name of parent or de facto parent of student.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">wasRaisedBy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -180,6 +211,10 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000125">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103></antologies:PIZZA_0000103>
+        <antologies:PIZZA_0000103>Has Dislike for
+
+Name of person someone dislikes.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasDislikeFor</rdfs:label>
     </owl:ObjectProperty>
     
@@ -189,6 +224,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000126">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Has Spouse
+
+The name of someone&apos;s spouse</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasSpouse</rdfs:label>
     </owl:ObjectProperty>
     
@@ -198,6 +236,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000127">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Has child
+
+States the name of someone&apos;s child</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasChild</rdfs:label>
     </owl:ObjectProperty>
     
@@ -207,6 +248,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000128">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is taught by
+
+Name of professor that student is taught by.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isTaughtBy</rdfs:label>
     </owl:ObjectProperty>
     
@@ -216,6 +260,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000129">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Has Member
+
+The name of the member of a group or organization.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">hasMember</rdfs:label>
     </owl:ObjectProperty>
     
@@ -224,6 +271,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
     <!-- http://www.pizza.owl/antologies/PIZZA_0000130 -->
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000130">
+        <antologies:PIZZA_0000103>Is Blood-Status Of
+
+Name of the blood-status of a particular person.</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">is BloodStatusOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -233,6 +283,8 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000131">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is in the wand of
+i.e. Whose wand contains that substance</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">isInWandOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -242,6 +294,9 @@ Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:P
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <antologies:PIZZA_0000103>Is a Companion Animal of
+
+Name of person who has this companion animal (pet).</antologies:PIZZA_0000103>
     </owl:ObjectProperty>
     
 
@@ -703,12 +758,6 @@ http://harrypotter.wikia.com/wiki/Ghost</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
             </owl:Restriction>
@@ -859,12 +908,6 @@ http://harrypotter.wikia.com/wiki/Harry_Potter</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
             </owl:Restriction>
@@ -992,12 +1035,6 @@ http://harrypotter.wikia.com/wiki/Ronald_Weasley</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000068"/>
             </owl:Restriction>
@@ -1111,12 +1148,6 @@ http://harrypotter.wikia.com/wiki/Hermione_Granger</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
             </owl:Restriction>
@@ -1192,12 +1223,6 @@ http://harrypotter.wikia.com/wiki/Neville_Longbottom</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
             </owl:Restriction>
@@ -1259,12 +1284,6 @@ http://harrypotter.wikia.com/wiki/Draco_Malfoy</antologies:PIZZA_0000103>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1378,12 +1397,6 @@ http://harrypotter.wikia.com/wiki/Luna_Lovegood</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000122"/>
             </owl:Restriction>
@@ -1469,12 +1482,6 @@ http://harrypotter.wikia.com/wiki/Ginevra_Weasley</antologies:PIZZA_0000103>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1569,12 +1576,6 @@ http://harrypotter.wikia.com/wiki/Fred_Weasley</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
             </owl:Restriction>
@@ -1617,12 +1618,6 @@ http://harrypotter.wikia.com/wiki/George_Weasley</antologies:PIZZA_0000103>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1702,12 +1697,6 @@ http://harrypotter.wikia.com/wiki/Flitwick</antologies:PIZZA_0000103>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
             </owl:Restriction>
@@ -1761,12 +1750,6 @@ https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Minerv
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1858,12 +1841,6 @@ https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Pomona
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
             </owl:Restriction>
@@ -1933,12 +1910,6 @@ https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Severu
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2541,12 +2512,6 @@ https://www.pottermore.com/writing-by-jk-rowling/wand-cores</antologies:PIZZA_00
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
             </owl:Restriction>
@@ -2593,12 +2558,6 @@ http://harrypotter.wikia.com/wiki/Voldemort</antologies:PIZZA_0000103>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2654,12 +2613,6 @@ http://harrypotter.wikia.com/wiki/Molly_Weasley</antologies:PIZZA_0000103>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2800,12 +2753,6 @@ http://harrypotter.wikia.com/wiki/Dudley_Dursley</antologies:PIZZA_0000103>
 
     <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000087">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <antologies:PIZZA_0000103>The Bloody Baron (d. 11th century) was a wizard who attended Hogwarts School of Witchcraft and Wizardry in the Founders&apos; time and was Sorted into Slytherin House.
 
 After Hogwarts, he fell in love with Helena Ravenclaw, but she did not love him. He was sent by Rowena Ravenclaw to find Helena in Albania, but Helena refused to return with him and so he killed her in a rage. When he realised what he had done, the Baron stabbed himself with the same knife and died.
@@ -2821,12 +2768,6 @@ http://harrypotter.wikia.com/wiki/Bloody_Baron</antologies:PIZZA_0000103>
 
     <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000088">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <antologies:PIZZA_0000103>The Fat Friar was a wizard, who attended Hogwarts School of Witchcraft and Wizardry in his youth, and was Sorted into Hufflepuff. He was a jolly man and very forgiving. He devoted his life to religion and, after his death, returned to the school as the resident ghost of Hufflepuff House.
 http://harrypotter.wikia.com/wiki/Fat_Friar</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">Fat_Friar</rdfs:label>
@@ -2850,12 +2791,6 @@ http://harrypotter.wikia.com/wiki/Fat_Friar</antologies:PIZZA_0000103>
                 <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000087"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <antologies:PIZZA_0000103>Helena Ravenclaw (c. late 10th century – early 11th century) also known as the Grey Lady, was a witch and Rowena Ravenclaw&apos;s daughter. She attended Hogwarts School of Witchcraft and Wizardry and was Sorted into Ravenclaw house.
 
 At some point after starting her education, Helena stole her mother&apos;s diadem and ran away to Albania. Rowena became fatally ill and hoping to see her daughter one last time, sent the Bloody Baron, a man who harboured an unrequited love for Helena, to find her. In a rage the Baron murdered Helena when she refused to return with him, before he committed suicide out of regret for what he had done. She and the Baron eventually returned as ghosts to Hogwarts Castle, where Helena became and continues to be the Ghost of Ravenclaw House.
@@ -2869,12 +2804,6 @@ http://harrypotter.wikia.com/wiki/Helena_Ravenclaw</antologies:PIZZA_0000103>
 
     <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000090">
         <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <antologies:PIZZA_0000103>Sir Nicholas chose to linger as a ghost rather than &quot;go on&quot;, because, by his own admission, he feared death.[11] He became the resident ghost of Gryffindor Tower at Hogwarts School of Witchcraft and Wizardry and would spend his life after death there. &quot;Nearly Headless Nick&quot;, as he was called by the majority of the student body, was always happy to point new Gryffindors in the right direction when late to class
 http://harrypotter.wikia.com/wiki/Nearly_Headless_Nick</antologies:PIZZA_0000103>
         <rdfs:label xml:lang="en">Nearly_Headless_Nick</rdfs:label>
@@ -3038,12 +2967,6 @@ https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_00
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
                 <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
-                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <antologies:PIZZA_0000103>Teacher of Care of Magical Creatures at Hogwarts
