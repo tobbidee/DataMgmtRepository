@@ -1,0 +1,3024 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#"
+     xml:base="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17"
+     xmlns:antologies="http://www.pizza.owl/antologies/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000103 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000103">
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000092 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000092">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isEnemyOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000093 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000093">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isFriendOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000094 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000094">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isRoommateOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000098 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000098">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isSiblingOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000099 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000099">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isTeacherOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000100 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000100">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">belongsTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000101 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000101">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isHeadOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000102 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000102">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000104 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000104">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasWandMadeOf</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000114 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000114">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasBloodStatus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000115 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000115">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasCompanion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000121 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000121">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasPatronus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000124 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000124">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">wasRaisedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000125 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000125">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasDislikeFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000126 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000126">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasSpouse</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000127 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000127">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasChild</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000128 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000128">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">isTaughtBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000129 -->
+
+    <owl:ObjectProperty rdf:about="http://www.pizza.owl/antologies/PIZZA_0000129">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">hasMember</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000024 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000024">
+        <antologies:PIZZA_0000103></antologies:PIZZA_0000103>
+        <antologies:PIZZA_0000103 xml:lang="en">Hogwarts School of Witchcraft and Wizardry, shortened to Hogwarts, is a fictional British school of magic for students aged eleven to eighteen, and is the primary setting for the first six books in J.K. Rowling&apos;s Harry Potter series.  - https://en.wikipedia.org/wiki/Hogwarts</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hogwarts_Castle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000025 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000025">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A character is a person or other being in a narrative work of art. 
+https://en.wikipedia.org/wiki/Character_(arts)</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000026 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000026">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000129"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000087"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Houses at Hogwarts were both the living and learning communities for its students. Each year&apos;s group of students in the same house shares the same dormitory and many classes. The houses compete throughout the school year, by earning and losing points for various activities. 
+http://harrypotter.wikia.com/wiki/Hogwarts_Houses</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Houses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000027 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli.
+https://www.google.ca/search?q=Dictionary#dobs=animal</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Animals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000028 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <antologies:PIZZA_0000103 xml:lang="en">It is presumed that wizards and witches do not need any form of specific education or training if they wish to become teachers. They should possess knowledge and skill in the subject of their teaching, and preferably hold an O.W.L. and a N.E.W.T. in the subject. Sometimes a Headmaster/Headmistress will hire someone who did not sit the O.W.L. exams.
+http://harrypotter.wikia.com/wiki/Professor</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Teachers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000029 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Students selected for this antology represent significant characters in reference to Harry Potter throughout most of the series.
+
+Hogwarts students come from across the United Kingdom and Ireland. They are sorted into one of four houses and spend most of their time with their fellow house members for the seven years they attend Hogwarts. All British and Irish wizarding children are invited to attend Hogwarts and most do, although some families choose to either home school their children or send them abroad to other wizarding schools.
+https://www.hp-lexicon.org/thing/hogwarts-students/</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Students</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000030 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/Traits"/>
+        <antologies:PIZZA_0000103>Made from various kinds of wood, containing a core from substances such as dragon heartstring, unicorn hair or phoenix feather
+
+MAGICAL PROPERTIES
+The wand channels a witch or wizard’s power and abilities.
+https://www.pottermore.com/explore-the-story/wands
+
+Readers should bear in mind that each wand is the composite of its wood, its core and the experience and nature of its owner; that tendencies of each may counterbalance or outweigh the other; so this can only be a very general overview of an immensely complex subject.
+https://www.pottermore.com/writing-by-jk-rowling/wand-cores</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Wands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000032 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000032">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/Traits"/>
+        <antologies:PIZZA_0000103>Blood status, also called purity of blood, is a concept in the wizarding world that distinguishes between family trees that have different levels of magically-endowed members. It often results in prejudice towards those who have a large number of Muggles in their families. As Sirius Black informed Harry Potter, almost all wizards of their time have Muggles in their family trees, though some claim not to. The concept played a key role in both the First and Second Wizarding Wars. Families that claim to be pure, to whatever extent they ever really were, are dwindling in number.
+http://harrypotter.wikia.com/wiki/Blood_status</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Blood_Status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000034 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000034">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000090"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000129"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                                    <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>With a lion as its crest and Professor McGonagall at its head, Gryffindor is the house which most values the virtues of courage, bravery and determination.
+https://www.pottermore.com/collection/all-about-gryffindor
+
+&quot;You might belong in Gryffindor,
+Where dwell the brave at heart,
+Their daring, nerve and chivalry
+Set Gryffindors apart&quot;
+The Sorting Hat
+http://harrypotter.wikia.com/wiki/Sorting_Hat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Gryffindor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000035 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000035">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000129"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000089"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Ravenclaws prize wit, learning, and wisdom. It&apos;s an ethos etched into founder Rowena Ravenclaw diadem: &apos;wit beyond measure is man&apos;s greatest treasure&apos;
+https://www.pottermore.com/collection/all-about-ravenclaw
+
+&quot;Or yet in wise old Ravenclaw,
+If you&apos;ve a ready mind,
+Where those of wit and learning,
+Will always find their kind&quot;
+The Sorting Hat
+http://harrypotter.wikia.com/wiki/Sorting_Hat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Ravenclaw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000036 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000036">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <antologies:PIZZA_0000103>Slytherin produces more than its share of Dark wizards, but also turns out leaders who are proud, ambitious and cunning. Merlin is one particularly famous Slytherin.
+https://www.pottermore.com/collection/all-about-slytherin
+
+&quot;Or perhaps in Slytherin
+You&apos;ll make your real friends,
+Those cunning folks use any means
+To achieve their ends&quot;
+The Sorting Hat
+http://harrypotter.wikia.com/wiki/Sorting_Hat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Slytherin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000037 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000037">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000129"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000088"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Hufflepuffs value hard work, patience, loyalty, and fair play. The house has produced its share of great wizards – not least Newt Scamander, author of Fantastic Beasts and Where to Find Them
+https://www.pottermore.com/collection/all-about-hufflepuff
+
+&quot;You might belong in Hufflepuff,
+Where they are just and loyal,
+Those patient Hufflepuffs are true
+And unafraid of toil&quot;
+The Sorting Hat
+http://harrypotter.wikia.com/wiki/Sorting_Hat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hufflepuff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000038 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000038">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A ghost is the disembodied spirit of a once-living wizard or witch. Only magical beings can become ghosts. Many ghosts take up residence within Hogwarts Castle. These fleshless spirits were either afraid of death or have some extraordinarily strong connection to the locations they haunt.
+
+In their paranormal state, ghosts are unable to have much physical influence. They are visible, and appear as a greyish-silver apparition of their former (living) selves. They pass through solid objects without damaging themselves or the material, but create disturbances in water, fire and air. The temperature drops in the immediate vicinity of a ghost. Their appearance can also turn flames blue.
+http://harrypotter.wikia.com/wiki/Ghost</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Ghosts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000039 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000053"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000059"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Main Protagonist of series
+Best friend of Ron Weasley and Hermione Granger
+
+Harry James Potter (b. 31 July 1980) is a half-blood wizard, one of the most famous wizards of modern times. He is the only child and son of James and Lily Potter (née Evans), both members of the original Order of the Phoenix. Harry&apos;s birth was overshadowed by a prophecy, naming either himself or Neville Longbottom as the one with the power to vanquish Lord Voldemort. After half of the prophecy was reported to Voldemort courtesy of Severus Snape, Harry was chosen as the target due to his many similarities with the Dark Lord. This caused the Potter family to go into hiding. Voldemort made his first vain attempt to circumvent the prophecy when Harry was a year and three months old. During this attempt he murdered Harry&apos;s parents as they tried to protect him, but this unsuccessful attempt to kill Harry led to Voldemort&apos;s first downfall. This downfall marked the end of the First Wizarding War, and to Harry henceforth being known as the &quot;Boy Who Lived&quot;.
+http://harrypotter.wikia.com/wiki/Harry_Potter</antologies:PIZZA_0000103>
+        <antologies:PIZZA_0000103>kkkk</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Harry_Potter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000040 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Best friend of Harry Potter.
+
+Ronald Bilius &quot;Ron&quot; Weasley (b. 1 March, 1980) was a pure-blood wizard, the sixth and youngest son of Arthur and Molly Weasley (née Prewett). He was also the younger brother of Bill, Charlie, Percy, Fred, George, and the elder brother of Ginny. Ron and his brothers and sister lived at the Burrow, on the outskirts of Ottery St Catchpole.
+
+Ron began attending Hogwarts School of Witchcraft and Wizardry in 1991 and was Sorted into Gryffindor House. He soon became best friends with fellow student Harry Potter and later Hermione Granger. Together, they faced many challenges during their adolescence.
+http://harrypotter.wikia.com/wiki/Ronald_Weasley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Ron_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000041 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000073"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Close friend of Harry Potter and Ron Weasley
+
+Hermione Jean Granger (b. 19 September, 1979 was a Muggle-born witch born to Mr and Mrs Granger, both dentists. At the age of eleven she learned that she was a witch, and had been accepted into Hogwarts School of Witchcraft and Wizardry. She began attending Hogwarts in 1991 and was Sorted into Gryffindor House. Hermione possessed a brilliant academic mind, and proved to be a gifted student in almost every subject that she studied.
+http://harrypotter.wikia.com/wiki/Hermione_Granger</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hermione_Granger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000042 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000077"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000057"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Neville_Longbottom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000043 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Adversary of Harry, Ron and Hermione.
+
+Draco Lucius[7] Malfoy (b. 5 June, 1980) was a pure-blood wizard and the only son of Lucius and Narcissa Malfoy (née Black). The son of a Death Eater, Draco was raised to believe strongly in the importance of blood purity. He attended Hogwarts School of Witchcraft and Wizardry from 1991-1998 and was sorted into Slytherin House. During his years at Hogwarts, he became friends with Vincent Crabbe, Gregory Goyle, Pansy Parkinson, and other fellow Slytherins, but he quickly developed a rivalry with Harry Potter.
+http://harrypotter.wikia.com/wiki/Draco_Malfoy</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Draco_Malfoy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000044 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000062"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Friend of Harry Potter and Ginny Weasley
+
+Luna Lovegood (b. 13 February, 1981 was a witch, the only child and daughter of Xenophilius and Pandora Lovegood. Her mother accidentally died while experimenting with spells when Luna was nine and Luna was raised by her father, editor of the magazine The Quibbler, in a rook-like house near the village of Ottery St Catchpole in Devon.
+
+Luna attended Hogwarts School of Witchcraft and Wizardry from 1992-1999 and was sorted into Ravenclaw House. In her fourth year, Luna joined Dumbledore&apos;s Army, an organisation taught and led by Harry Potter, of which she became an important member. 
+http://harrypotter.wikia.com/wiki/Luna_Lovegood</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Luna_Lovegood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000045 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Sister of Ron Weasley
+
+Ginevra Molly &quot;Ginny&quot; Potter (neé Weasley) (b. 11 August, 1981... was a pure-blood. witch, the youngest of Arthur and Molly Weasley&apos;s (née Prewett) seven children, and the first female to be born into the Weasley line for several generations. She and her older brothers grew up in the Burrow on the outskirts of Ottery St Catchpole in Devon.
+http://harrypotter.wikia.com/wiki/Ginevra_Weasley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Ginny_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000046 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Brother of Ron Weasley
+Twin of George Weasley
+
+Appropriately enough, Fred Weasley, along with his identical twin George, was born to Arthur and Molly Weasley on 1 April, 1978; April Fool&apos;s Day. Fred was born first. He was raised at his family home of the Burrow, near Ottery St Catchpole in Devon, England. In addition to his twin brother, Fred had three older brothers, Bill, Charlie and Percy, and two younger siblings, Ron and Ginny. The Weasley family was poor, but loving.
+http://harrypotter.wikia.com/wiki/Fred_Weasley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Fred_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000047 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000098"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000094"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000128"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Brother of Ron Weasley
+Twin of Fred Weasley
+
+George Weasley (b. 1 April, 1978) was a pure-blood wizard, son of Arthur Weasley and Molly Weasley (née Prewett), brother of Bill, Charlie, Percy, Ron, and Ginny, and twin brother of the late Fred Weasley. George&apos;s first few years were marked by the height of the First Wizarding War and Lord Voldemort&apos;s first fall. He attended Hogwarts School of Witchcraft and Wizardry from 1989-1996 with Fred, and was Sorted into Gryffindor House. He and Fred were popular students, becoming Beaters for the Gryffindor Quidditch team in their second year, and members of Dumbledore&apos;s Army in their unfinished seventh year.
+http://harrypotter.wikia.com/wiki/George_Weasley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">George_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000048 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Teaches Charms at Hogwarts
+
+Professor Filius Flitwick (b. 17 October 1958 or earlier) was a part-goblin, part-wizard who attended Hogwarts School of Witchcraft and Wizardry and was sorted into Ravenclaw House, being an intelligent young man and a model student. Some time after his graduation, Flitwick returned to Hogwarts and became the Charms Master, as well as the Head of Ravenclaw House.
+http://harrypotter.wikia.com/wiki/Flitwick</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Filius_Flitwick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000049 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000108"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Teaches Transfiguration at Hogwarts
+
+Minerva McGonagall is the Transfiguration professor at Hogwarts School of Witchcraft and Wizardry. She is also Head of Gryffindor House and Deputy Headmistress. McGonagall also has the distinction of being one of the seven licensed Animagi of the 20th Century, being able to transform at will into a tabby cat (with distinctive markings around its eyes, similar to the square-shaped spectacles she wears).
+https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Minerva_McGonagall</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Minerva_McGonagall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000050 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Teaches Hrbology at Hogwarts
+
+Pomona Sprout is the Herbology professor at Hogwarts School of Witchcraft and Wizardry. She is also the Head of Hufflepuff House.
+https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Pomona_Sprout</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Pomona_Sprout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000051 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Teaches Potions at Hogwarts
+
+Severus Snape is the Potions teacher at Hogwarts School of Witchcraft and Wizardry. He is also the Head of Slytherin House, and briefly served as Headmaster in book 7. Although Snape is a former Death Eater, Professor Dumbledore places his utmost faith in Snape&apos;s loyalty, though exactly why he trusts him so implicitly is initially unknown. Snape joins the Order of the Phoenix to combat Lord Voldemort, apparently acting as a double agent, though, later, Snape also serves Lord Voldemort. Snape&apos;s true loyalties remain uncertain until the final book.
+https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Severus_Snape</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Severus_Snape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000052 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000052">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000110"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000101"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000063"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Headmaster of Hogwarts
+
+Professor Albus Percival Wulfric Brian Dumbledore, O.M. (First Class), Grand Sorc., D. Wiz., X.J. (sorc.), S. of Mag.Q.[12] (c. Summer 1881 – 30 June, 1997 was the Transfiguration Professor, and later Headmaster of Hogwarts School of Witchcraft and Wizardry. Professor Dumbledore also served as Supreme Mugwump of the International Confederation of Wizards (?–1995) and Chief Warlock of the Wizengamot (?-1995; 1996-1997). He was a half-blood, Muggle-supporting wizard, the son of Percival and Kendra Dumbledore, and the elder brother of Aberforth and Ariana. His father died in Azkaban when Dumbledore was young, while his mother and sister were later accidentally killed. His early losses greatly affected him early on, even at his death, but in turn made him a better person. Albus Dumbledore was considered to be the most powerful wizard of all time. He was most famous for his defeat of Gellert Grindelwald, the discovery of the twelve uses of dragon&apos;s blood, and his work on alchemy with Nicolas Flamel.
+http://harrypotter.wikia.com/wiki/Albus_Dumbledore</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Albus_Dumbledore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000053 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000053">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Hedwig (d. 27 July, 1997) was Harry Potter&apos;s pet Snowy Owl (Bubo scandiacus). Hedwig was an 11th birthday gift from Rubeus Hagrid to Harry. Hagrid purchased her at Eeylops Owl Emporium.
+http://harrypotter.wikia.com/wiki/Hedwig</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hedwig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000054 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000054">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000120"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Scabbers was the pet of Ron Weasley in the first three instalments of the series. He originally belonged to Ron&apos;s brother, Percy, but when Percy was given an owl as a reward for becoming a prefect, Scabbers was handed down to Ron.
+http://harrypotter.neoseeker.com/wiki/Scabbers
+
+Revealed later:
+After framing Sirius Black for the crimes of betraying James and Lily Potter and murdering twelve Muggles, Pettigrew went into hiding in his Animagus form, and disguised himself as a rat named Scabbers.
+http://harrypotter.wikia.com/wiki/Scabbers#Scabbers</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Scabbers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000055 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000055">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000065"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">From the third book to the sixth, Crookshanks is Hermione Granger&apos;s pet cat. Crookshanks was purchased by Hermione in a shop called Magical Menagerie in the third Harry Potter book; Harry Potter and The Prisoner Of Azkaban.
+https://en.wikipedia.org/wiki/Magical_creatures_in_Harry_Potter#Crookshanks</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Crookshanks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000056 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000056">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Fang is a large boarhound (portrayed in the films by a Neapolitan Mastiff) that, aside from his enormous size, appears to be an entirely ordinary dog. While Fang&apos;s appearance is intimidating, he is, in Hagrid&apos;s words, &quot;a bloody coward.&quot; Boisterous and loving with people he knows, he seems to enjoy licking Harry, Ron, or Hermione around the face or ears.
+https://en.wikipedia.org/wiki/Rubeus_Hagrid#Buckbeak</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Fang</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000057 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000057">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Trevor was Neville Longbottom&apos;s pet toad. He was given to Neville by his Great-Uncle Algie upon Neville&apos;s gaining admission to Hogwarts School of Witchcraft and Wizardry
+http://harrypotter.wikia.com/wiki/Trevor</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Trevor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000058 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000058">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000117"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/tobbi/ontologies/2018/2/untitled-ontology-17#isCompanionAnimalOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">Buckbeak, along with eleven other hippogriffs, is introduced during one of Hagrid’s Care of Magical Creatures classes. Hagrid explains that hippogriffs are very calm, powerful, proud creatures, but are sensitive and demand respect. Harry successfully approaches Buckbeak, who allows him to ride him around the paddock.
+https://en.wikipedia.org/wiki/Rubeus_Hagrid#Buckbeak</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Buckbeak</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000059 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A male deer.
+https://www.google.ca/search?q=Dictionary#dobs=stag</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Stag</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000060 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000060">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000102"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000118"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103 xml:lang="en">The Jack Russell Terrier is a small terrier that has its origins in fox hunting. It is principally white-bodied and smooth, rough or broken-coated but can be any colour.
+https://en.wikipedia.org/wiki/Jack_Russell_Terrier</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Jack_Russel_Terrier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000061 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A semiaquatic fish-eating mammal of the weasel family, with an elongated body, dense fur, and webbed feet.
+https://www.google.ca/search?q=Dictionary#dobs=otter</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Otter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000062 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000062">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Hares and jackrabbits are leporids belonging to the genus Lepus. Hares are classified into the same family as rabbits. They are similar in size and form to rabbits and eat the same diet. They are generally herbivorous and long-eared, they are fast runners, and they typically live solitarily or in pairs. Hare species are native to Africa, Eurasia, North America, and the Japanese archipelago.
+https://en.wikipedia.org/wiki/Hare</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hare</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000063 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000063">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">In Greek mythology, a phoenix (Ancient Greek: φοῖνιξ phoînix) is a long-lived bird that cyclically regenerates or is otherwise born again
+https://en.wikipedia.org/wiki/Phoenix_(mythology)</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Phoenix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000064 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000064">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Doe: A deer: a female deer.
+https://www.youtube.com/watch?v=1RW3nDRmu6k</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Doe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000065 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000065">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">The domestic cat is a small, typically furry, carnivorous mammal. They are often called house cats when kept as indoor pets or simply cats when there is no need to distinguish them from other felids and felines.
+https://en.wikipedia.org/wiki/Cat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Cat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000066 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000066">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        <antologies:PIZZA_0000103>Pure-blood is the term for wizards and witches who claim to have no Muggle or Muggle-borns in their family tree; however, when traced back far enough, nearly every family tree had some non-magical ancestors.
+http://harrypotter.wikia.com/wiki/Pure-blood</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Pure_Blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000067 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000067">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        <antologies:PIZZA_0000103>Half-blood was the term commonly given to wizards and witches who had known Muggle or Muggle-born parents or grandparents. By the 1990s, half-bloods were the most common type of magical person, as the wizarding population would have become extinct had they not inter-married with Muggles and Muggle-borns
+http://harrypotter.wikia.com/wiki/Half-blood</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Half_Blood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000068 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000068">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        <antologies:PIZZA_0000103>Muggle-born, once known as Magbobs and also known by the pejorative mudblood, are expressions referring to witches or wizards who are born to two non-magical parents. Their magical abilities do not seem to be at all affected by their Muggle parentage. In fact, many Muggle-borns have been among the most talented witches and wizards of their age, such as Lily Evans and Hermione Granger.
+http://harrypotter.wikia.com/wiki/Muggle_Born</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Muggle_Born</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000069 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000069">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+        <antologies:PIZZA_0000103>The core of a wand is a magical substance placed within the length of wood, usually extracted from a magical creature.
+http://harrypotter.wikia.com/wiki/Wand_core</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Core</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000071 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000071">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;Holly is one of the rarer kinds of wand woods; traditionally considered protective, it works most happily for those who may need help overcoming a tendency to anger and impetuosity. At the same time, holly wands often choose owners who are engaged in some dangerous and often spiritual quest. Holly is one of those woods that varies most dramatically in performance depending on the wand core, and it is a notoriously difficult wood to team with phoenix feather, as the wood’s volatility conflicts strangely with the phoenix’s detachment. In the unusual event of such a pairing finding its ideal match, however, nothing and nobody should stand in their way.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Holly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000072 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000072">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;Willow is an uncommon wand wood with healing power, and I have noted that the ideal owner for a willow wand often has some (usually unwarranted) insecurity, however well they may try and hide it. While many confident customers insist on trying a willow wand (attracted by their handsome appearance and well-founded reputation for enabling advanced, non-verbal magic) my willow wands have consistently selected those of greatest potential, rather than those who feel they have little to learn. It has always been a proverb in my family that he who has furthest to travel will go fastest with willow.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Willow</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000073 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000073">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;The druids considered anything with a woody stem as a tree, and vine makes wands of such a special nature that I have been happy to continue their ancient tradition. Vine wands are among the less common types, and I have been intrigued to notice that their owners are nearly always those witches or wizards who seek a greater purpose, who have a vision beyond the ordinary and who frequently astound those who think they know them best. Vine wands seem strongly attracted by personalities with hidden depths, and I have found them more sensitive than any other when it comes to instantly detecting a prospective match. Reliable sources claim that these wands can emit magical effects upon the mere entrance into their room of a suitable owner, and I have twice observed the phenomenon in my own shop.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Vine_Wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000074 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000074">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;This very rare wand wood creates a wand of strange power, most highly prized by the wizarding students of the school of Mahoutokoro in Japan, where those who own cherry wands have special prestige. The Western wand-purchaser should dispel from their minds any notion that the pink blossom of the living tree makes for a frivolous or merely ornamental wand, for cherry wood often makes a wand that possesses truly lethal power, whatever the core, but if teamed with dragon heartstring, the wand ought never to be teamed with a wizard without exceptional self-control and strength of mind.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Cherry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000075 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000075">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;Hawthorn wands may be particularly suited to healing magic, but they are also adept at curses, and I have generally observed that the hawthorn wand seems most at home with a conflicted nature, or with a witch or wizard passing through a period of turmoil. Hawthorn is not easy to master, however, and I would only ever consider placing a hawthorn wand in the hands of a witch or wizard of proven talent, or the consequences might be dangerous. Hawthorn wands have a notable peculiarity: their spells can, when badly handled, backfire.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hawthorn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000076 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000076">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <antologies:PIZZA_0000103>This is the rarest core type. Phoenix feathers are capable of the greatest range of magic, though they may take longer than either unicorn or dragon cores to reveal this. They show the most initiative, sometimes acting of their own accord, a quality that many witches and wizards dislike.
+
+Phoenix feather wands are always the pickiest when it comes to potential owners, for the creature from which they are taken is one of the most independent and detached in the world. These wands are the hardest to tame and to personalise, and their allegiance is usually hard won.
+https://www.pottermore.com/writing-by-jk-rowling/wand-cores</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Phoenix_Feather</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000077 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000077">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <antologies:PIZZA_0000103>Unicorn hair generally produces the most consistent magic, and is least subject to fluctuations and blockages. Wands with unicorn cores are generally the most difficult to turn to the Dark Arts. They are the most faithful of all wands, and usually remain strongly attached to their first owner, irrespective of whether he or she was an accomplished witch or wizard.
+
+Minor disadvantages of unicorn hair are that they do not make the most powerful wands (although the wand wood may compensate) and that they are prone to melancholy if seriously mishandled, meaning that the hair may ‘die’ and need replacing.
+https://www.pottermore.com/writing-by-jk-rowling/wand-cores</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Unicorn_Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000078 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <antologies:PIZZA_0000103>As a rule, dragon heartstrings produce wands with the most power, and which are capable of the most flamboyant spells. Dragon wands tend to learn more quickly than other types. While they can change allegiance if won from their original master, they always bond strongly with the current owner.
+
+The dragon wand tends to be easiest to turn to the Dark Arts, though it will not incline that way of its own accord. It is also the most prone of the three cores to accidents, being somewhat temperamental.
+https://www.pottermore.com/writing-by-jk-rowling/wand-cores</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Dragon_Heartstring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000080 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000025"/>
+        <antologies:PIZZA_0000103>Some significant characters who didn&apos;t reside at Hogwarts during the series.</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Other_Characters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000081 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000076"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000104"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000106"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Harry Potter&apos;s Nemesis
+Main Antagonist
+
+Tom Marvolo Riddle December, (1926 – 2 May, 1998), later (and better) known as Lord Voldemort, was a half-blood wizard considered to have been the most powerful and dangerous dark wizard of all time. The only child and son of wealthy Muggle gentleman Tom and Merope Riddle (née Gaunt) via the coercive use of a Love Potion, Riddle was raised in the Muggle-run Wool&apos;s Orphanage after his father abandoned his new family on the streets of London when the potion&apos;s influence was lifted, and his mother died moments after giving birth to and naming him after his father and maternal grandfather, Marvolo Gaunt.  
+http://harrypotter.wikia.com/wiki/Voldemort</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Voldemort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000082 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000082">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Ron Weasley&apos;s Mother
+
+Molly Weasley (née Prewett) (b. 30 October[1], 1949/1950[2]) was a pure-blood[4] witch and the matriarch of the Weasley family. She is married to Arthur Weasley. She was born into the Prewett family, and was sister to Fabian and Gideon Prewett, members of the original Order of the Phoenix.
+http://harrypotter.wikia.com/wiki/Molly_Weasley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Molly_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000083 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000114"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000121"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Ron Weasley&apos;s Father
+
+Arthur Weasley (b. 6 February, 1950) was a pure-blood[4] wizard in the employ of the Ministry of Magic, as well as a member of the second Order of the Phoenix. He was a staunch believer in the equality of all magical and Muggle folk and was the [father] of the Weasley family.
+http://harrypotter.wikia.com/wiki/Arthur_Weasley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Arthur_Weasley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000084 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Harry Potter&apos;s Aunt
+
+Petunia Dursley (née Evans) (c. 1960 – c. 2020)[1] was a Muggle, the elder daughter of Mr. and Mrs Evans and the sister of the Muggle-born witch Lily. During her childhood, she broke off contact with her sister and refused to have any contact with the wizarding world.
+
+She married a Muggle, Vernon Dursley and they had a son, Dudley. However, when Lily was murdered by Voldemort, Petunia became guardian of her nephew, Harry Potter, who was only an infant then. She neglected him for the most part, and confined him to sleep in the cupboard under the stairs (although she allowed him a room of his own after receiving his acceptance letters to Hogwarts).
+http://harrypotter.wikia.com/wiki/Aunt_Petunia</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Aunt_Petunia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000085 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000126"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000127"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Harry Potter&apos;s Uncle
+
+Vernon Dursley was a Muggle, husband of Petunia Evans, father of Dudley and uncle of Harry Potter by marriage. He [lives] at 4 Privet Drive. After Petunia&apos;s sister Lily and brother-in-law, James Potter, were killed by Voldemort in their own home, Petunia remained the sole surviving blood relative of Harry&apos;s. Both Wizard and Muggle law demanded that Petunia and Vernon be the new legal guardians of Harry Potter, which they accepted (albeit reluctantly). However, they disliked Harry and treated him badly, while spoiling and fattening Dudley.
+http://harrypotter.wikia.com/wiki/Vernon_Dursley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Uncle_Vernon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000086 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000080"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000124"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Harry Potter&apos;s Cousin
+
+Dudley Dursley (b. 23 June, 1980[1]) was the Muggle son of Vernon and Petunia Dursley and cousin of Harry Potter. He was obese and insolent as a result of his parents spoiling him throughout his childhood, although he became muscular in his teens. He and his gang often tormented Harry, taking after the example set by his parents, as well as other weaker and younger children in their neighbourhood and at school.
+http://harrypotter.wikia.com/wiki/Dudley_Dursley</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Dudley_Dursley</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000087 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000087">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>The Bloody Baron (d. 11th century) was a wizard who attended Hogwarts School of Witchcraft and Wizardry in the Founders&apos; time and was Sorted into Slytherin House.
+
+After Hogwarts, he fell in love with Helena Ravenclaw, but she did not love him. He was sent by Rowena Ravenclaw to find Helena in Albania, but Helena refused to return with him and so he killed her in a rage. When he realised what he had done, the Baron stabbed himself with the same knife and died.
+
+After death, he is one of the ghosts that haunts Hogwarts School of Witchcraft and Wizardry, and the ghost of Slytherin House. Covered in Helena Ravenclaw&apos;s blood to this day, he earned himself the moniker of &quot;Bloody Baron&quot;.
+http://harrypotter.wikia.com/wiki/Bloody_Baron</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Bloody_Baron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000088 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000088">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>The Fat Friar was a wizard, who attended Hogwarts School of Witchcraft and Wizardry in his youth, and was Sorted into Hufflepuff. He was a jolly man and very forgiving. He devoted his life to religion and, after his death, returned to the school as the resident ghost of Hufflepuff House.
+http://harrypotter.wikia.com/wiki/Fat_Friar</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Fat_Friar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000089 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Helena Ravenclaw (c. late 10th century – early 11th century) also known as the Grey Lady, was a witch and Rowena Ravenclaw&apos;s daughter. She attended Hogwarts School of Witchcraft and Wizardry and was Sorted into Ravenclaw house.
+
+At some point after starting her education, Helena stole her mother&apos;s diadem and ran away to Albania. Rowena became fatally ill and hoping to see her daughter one last time, sent the Bloody Baron, a man who harboured an unrequited love for Helena, to find her. In a rage the Baron murdered Helena when she refused to return with him, before he committed suicide out of regret for what he had done. She and the Baron eventually returned as ghosts to Hogwarts Castle, where Helena became and continues to be the Ghost of Ravenclaw House.
+http://harrypotter.wikia.com/wiki/Helena_Ravenclaw</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Grey_Lady</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000090 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000090">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Sir Nicholas chose to linger as a ghost rather than &quot;go on&quot;, because, by his own admission, he feared death.[11] He became the resident ghost of Gryffindor Tower at Hogwarts School of Witchcraft and Wizardry and would spend his life after death there.[5] &quot;Nearly Headless Nick&quot;, as he was called by the majority of the student body, was always happy to point new Gryffindors in the right direction when late to class
+http://harrypotter.wikia.com/wiki/Nearly_Headless_Nick</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Nearly_Headless_Nick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000105 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000105">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+        <antologies:PIZZA_0000103>Various types of wood are used in the construction of wands. The wood is embedded with a core of a magical substance and can vary in length - from at least 7&quot; to 18&quot; - as well as rigidity, from springy to unyielding.
+http://harrypotter.wikia.com/wiki/Wand_wood</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Wood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000106 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000106">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;Yew wands are among the rarer kinds, and their ideal matches are likewise unusual, and occasionally notorious. The wand of yew is reputed to endow its possessor with the power of life and death, which might, of course, be said of all wands; and yet yew retains a particularly dark and fearsome reputation in the spheres of duelling and all curses. However, it is untrue to say (as those unlearned in wandlore often do) that those who use yew wands are more likely to be attracted to the Dark Arts than another. The witch or wizard best suited to a yew wand might equally prove a fierce protector of others. Wands hewn from these most long-lived trees have been found in the possession of heroes quite as often as of villains. Where wizards have been buried with wands of yew, the wand generally sprouts into a tree guarding the dead owner’s grave. What is certain, in my experience, is that the yew wand never chooses either a mediocre or a timid owner.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Yew</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000108 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000108">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;My august grandfather, Gerbold Octavius Ollivander, always called wands of this wood ‘the survivor’s wand’, because he had sold it to three wizards who subsequently passed through mortal peril unscathed. There is no doubt that this wood, coming as it does from the most resilient of trees, produces wands that demand staying power and strength of purpose in their true owners, and that they are poor tools in the hands of the changeable and indecisive. Fir wands are particularly suited to Transfiguration, and favour owners of focused, strong-minded and, occasionally, intimidating demeanour.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Fir</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000109 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000109">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000069"/>
+        <antologies:PIZZA_0000103>The most widely known wand to have used a Thestral Tail hair is the Elder Wand. Created either by Death or Antioch Peverell, was the strongest known wand in the entire history of wizardkind, and by legend was made to render the user invincible in wizard duels.
+
+Whether this is a testament to the power of the Thestral tail hair remains ambiguous, as Elder Wand bearers, such as Gellert Grindelwald and Emeric the Evil, have been shown to be defeatable in a duel. Nevertheless, the Elder Wand has shown additional powers that other wands are not capable of, such as being able to successfully repair other wands, which was thought to be by people who have studied wandlore to be impossible.
+
+It is assumed that one must be able to see Thestrals in order to utilise their hair, and since one must witness death first-hand to see a Thestral, anyone wishing to forge a wand with the hair must witness death, tying in with the story of being &quot;Master of Death.&quot; It is unknown if the tail hair would be invisible to a wandmaker who had not seen death, as a Thestral would be, or if it can be seen once it is separated from the Thestral.
+http://harrypotter.wikia.com/wiki/Thestral_tail_hair</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Thestral_Hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000110 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000110">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000105"/>
+        <antologies:PIZZA_0000103>&quot;The rarest wand wood of all, and reputed to be deeply unlucky, the elder wand is trickier to master than any other. It contains powerful magic, but scorns to remain with any owner who is not the superior of his or her company; it takes a remarkable wizard to keep the elder wand for any length of time. The old superstition, ‘wand of elder, never prosper,’ has its basis in this fear of the wand, but in fact, the superstition is baseless, and those foolish wandmakers who refuse to work with elder do so more because they doubt they will be able to sell their products than from fear of working with this wood. The truth is that only a highly unusual person will find their perfect match in elder, and on the rare occasion when such a pairing occurs, I take it as certain that the witch or wizard in question is marked out for a special destiny.&quot;
+Olivander
+https://www.pottermore.com/writing-by-jk-rowling/wand-woods</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Elder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000111 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000111">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000093"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000056"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000115"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000125"/>
+                <owl:someValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000092"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000099"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+                            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000100"/>
+                <owl:allValuesFrom rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <antologies:PIZZA_0000103>Teacher of Care of Magical Creatures at Hogwrts
+
+Rubeus Hagrid is Keeper of the Keys and Grounds at Hogwarts School of Witchcraft and Wizardry. He apparently stands about twelve feet tall, and is immensely strong; when Harry first meets him, he bends a rifle barrel &quot;into a knot as easily as if it had been made of rubber&quot;. He was expelled from Hogwarts and his wand was snapped in half, yet he still performs magic with his umbrella which is rumored to contain the broken parts of his wand.
+https://en.wikibooks.org/wiki/Muggles%27_Guide_to_Harry_Potter/Characters/Rubeus_Hagrid</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Rubeus_Hagrid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000116 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000116">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A nocturnal bird of prey with large forward-facing eyes surrounded by facial disks, a hooked beak, and typically a loud call.
+https://www.google.ca/search?q=Dictionary#dobs=owl</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Owl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000117 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000117">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">The hippogriff...is a legendary creature which has the front half of an eagle and the hind half of a horse.
+https://en.wikipedia.org/wiki/Hippogriff</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Hippogriff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000118 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000118">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">The domestic dog is a member of the genus Canis, which forms part of the wolf-like canids, and is the most widely abundant terrestrial carnivore.
+https://en.wikipedia.org/wiki/Dog
+
+A common pet.</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000119 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000119">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A tailless amphibian with a short stout body and short legs, typically having dry warty skin.
+https://www.google.ca/search?q=Dictionary#dobs=toad</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Toad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000120 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000120">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A rodent that resembles a large mouse, typically having a pointed snout and a long, sparsely haired tail.
+https://www.google.ca/search?q=Dictionary#dobs=rat</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Rat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000122 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000122">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Horses are strong, intelligent, and social animals that live together in herds in the wild. All members of the horse family have just one toe (a hoof) on each foot. ... Horses have slim legs and can run fast. Their coat is short except for longer hair on the mane and tail.
+https://www.dkfindout.com/us/animals-and-nature/horses/what-is-horse/</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Horse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/PIZZA_0000123 -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/PIZZA_0000123">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+        <antologies:PIZZA_0000103 xml:lang="en">Weasels are small mammals with long bodies and necks, short legs and small heads. They are closely related to ermine, ferrets, polecats and minks — all members of the Mustela genus — and are in the same family (Mustelids) as badgers, wolverines and otters.
+https://www.livescience.com/57475-weasel-facts.html</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Weasel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.pizza.owl/antologies/Traits -->
+
+    <owl:Class rdf:about="http://www.pizza.owl/antologies/Traits">
+        <rdfs:subClassOf rdf:resource="http://www.pizza.owl/antologies/PIZZA_0000024"/>
+        <antologies:PIZZA_0000103 xml:lang="en">A distinguishing quality or characteristic, typically one belonging to a person.
+https://www.google.ca/search?site=async/dictw&amp;q=Dictionary#dobs=trait</antologies:PIZZA_0000103>
+        <rdfs:label xml:lang="en">Traits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000030"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000032"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000027"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000028"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000029"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000038"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000034"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000035"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000036"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000037"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000039"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000040"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000041"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000042"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000043"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000044"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000045"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000046"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000047"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000048"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000049"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000050"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000051"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000052"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000053"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000056"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000057"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000053"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000054"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000055"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000056"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000057"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000058"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000059"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000060"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000061"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000062"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000063"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000064"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000065"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000066"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000067"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000068"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000071"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000072"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000073"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000074"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000075"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000076"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000077"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000078"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000081"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000082"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000083"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000084"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000085"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000086"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000087"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000088"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000089"/>
+            <rdf:Description rdf:about="http://www.pizza.owl/antologies/PIZZA_0000090"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
