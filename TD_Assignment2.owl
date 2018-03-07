@@ -9,7 +9,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/tobbi/ontologies/2018/HarryPotterOntology">
-        <antologies:PIZZA_0000103>This ontology looks at structure and characters in regards to Harry Potter and his time at Hogwarts School of Witchcraft and Wizardry. It focuses primarily on Harry up to the sixth book but especially during the first three. I generally didn&apos;t include transient characters or those in only some of the books, with the exception of Luna Lovegood who became a good friend of Harry&apos;s later in the series.
+        <antologies1:HarryPotter_0000103>This ontology looks at structure and characters in regards to Harry Potter and his time at Hogwarts School of Witchcraft and Wizardry. It focuses primarily on Harry up to the sixth book but especially during the first three. I generally didn&apos;t include transient characters or those in only some of the books, with the exception of Luna Lovegood who became a good friend of Harry&apos;s later in the series.
 
 Rowling, J.K. (1998) Harry Potter and the chamber of secrets. Vancouver: London: Bloomsbury Pub.
 
@@ -25,7 +25,7 @@ Rowling, J.K. (2003) Harry Potter and the Order of the Phoenix. London: Bloomsbu
 
 Fandom. Harry Potter wiki. Retrieved from harrypotter.wikia.com
 
-Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies:PIZZA_0000103>
+Rowling, J.K. Pottermore. Retrieved from https://ww.pottermore.com</antologies1:HarryPotter_0000103>
     </owl:Ontology>
     
 
