@@ -148,7 +148,7 @@ A short definition of what something is.</antologies1:HarryPotter_0000103>
 
     <owl:ObjectProperty rdf:about="http://www.HarryPotter.owl/antologies/HarryPotter_0000104">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <antologies1:HarryPotter_0000103>Has Wand Made Of
+        <antologies1:HarryPotter_0000103>Has wand made of
 
 A physical component of someone&apos;s wand.</antologies1:HarryPotter_0000103>
         <rdfs:label xml:lang="en">hasWandMadeOf</rdfs:label>
@@ -172,7 +172,7 @@ The blood status of a specific person</antologies1:HarryPotter_0000103>
 
     <owl:ObjectProperty rdf:about="http://www.HarryPotter.owl/antologies/HarryPotter_0000115">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <antologies1:HarryPotter_0000103>Companion animal, or pet.
+        <antologies1:HarryPotter_0000103>Has companion animal (or pet).
 
 The name of person&apos;s companion animal.</antologies1:HarryPotter_0000103>
         <rdfs:label xml:lang="en">hasCompanion</rdfs:label>
@@ -215,7 +215,7 @@ Name of parent or de facto parent of student.</antologies1:HarryPotter_0000103>
         <antologies1:HarryPotter_0000103></antologies1:HarryPotter_0000103>
         <antologies1:HarryPotter_0000103>Has Dislike for
 
-Name of person someone dislikes.</antologies1:HarryPotter_0000103>
+Name of person someone dislikes. i.e. Dislikes</antologies1:HarryPotter_0000103>
         <rdfs:label xml:lang="en">hasDislikeFor</rdfs:label>
     </owl:ObjectProperty>
     
@@ -272,7 +272,7 @@ The name of the member of a group or organization.</antologies1:HarryPotter_0000
     <!-- http://www.HarryPotter.owl/antologies/HarryPotter_0000130 -->
 
     <owl:ObjectProperty rdf:about="http://www.HarryPotter.owl/antologies/HarryPotter_0000130">
-        <antologies1:HarryPotter_0000103>Is Blood-Status Of
+        <antologies1:HarryPotter_0000103>Is Blood-Status of
 
 Name of the blood-status of a particular person.</antologies1:HarryPotter_0000103>
         <rdfs:label xml:lang="en">is BloodStatusOf</rdfs:label>
